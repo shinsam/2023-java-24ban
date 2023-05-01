@@ -9,7 +9,7 @@ public class Student {
 	double weight;
 	
 	//생성자
-	Student(){
+	public Student(){
 		weight = 0;
 	}
 	
