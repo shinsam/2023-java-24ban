@@ -7,7 +7,8 @@ public class Car {
 	String color ; 
 	int 	speed; //현재속도 
 	int 	km;    //주행거리
-	static int 	count ; //총 생성된 차의 대수 
+	static int 	count ; //총 생성된 차의 대수
+	//-----------
 	
 	
 	//생성자(생략가능)-----------------------------
