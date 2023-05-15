@@ -12,6 +12,12 @@ public class Student {
 	Student(){ //생성자
 		count++ ; //생성할때마다 학생수를 증가시키려는 목적
 	}
+	
+	//count 값을 리턴해주는 메소드
+	static int getCount() {
+		return count;
+	}
+	
 
 	//이름을 저장
 	void setName(String n) {

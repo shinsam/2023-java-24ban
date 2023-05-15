@@ -8,7 +8,7 @@ public class StudentMain {
 		System.out.println(Student.SchoolName + "학생 객체수:" + Student.count );
 		
 		Student kang = new Student();
-		System.out.println(Student.SchoolName + "학생 객체수:" + Student.count );
+		System.out.println(Student.SchoolName + "학생 객체수:" + Student.getCount() );
 		
 		Student bak = new Student();
 		System.out.println(Student.SchoolName + "학생 객체수:" + bak.count );
