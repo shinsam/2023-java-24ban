@@ -21,7 +21,8 @@ public class Item {
 	}
 	
 	//메소드
-	void printItemInfo(){
+	void printItemInfo(){ 
+		
 		System.out.println(name );
 		System.out.println("출고가:" + price);
 		System.out.println("---------------");
