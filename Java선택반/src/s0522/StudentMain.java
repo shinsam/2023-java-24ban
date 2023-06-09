@@ -7,7 +7,7 @@ public class StudentMain {
 		Student a = new Student("김현강" , 2);
 		a.print();
 				
-		Student b = new Student("박만수" , 3);
+		Student b = new Student("박만수1" , 3);
 		b.print();
 
 	}
